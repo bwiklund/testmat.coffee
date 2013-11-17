@@ -1,0 +1,27 @@
+{
+  "name": "testmat.coffee",
+  "version": "0.1.0",
+  "description": "reasonable defaults for a karma / coffeescript project",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/karma start --single-run -browsers PhantomJS"
+  },
+  "author": "Ben Wiklund",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "karma-coverage": "https://github.com/kylewelsby/karma-coverage/tarball/fix-coffee-script-compiler",
+    "karma-script-launcher": "~0.1.0",
+    "karma-chrome-launcher": "~0.1.0",
+    "karma-firefox-launcher": "~0.1.0",
+    "karma-html2js-preprocessor": "~0.1.0",
+    "karma-jasmine": "~0.1.3",
+    "karma-requirejs": "~0.1.0",
+    "karma-coffee-preprocessor": "~0.1.0",
+    "karma-phantomjs-launcher": "~0.1.0",
+    "karma": "~0.10.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/bwiklund/testmat.coffee.git"
+  }
+}
