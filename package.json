@@ -17,5 +17,8 @@
   "repository": {
     "type": "git",
     "url": "http://github.com/bwiklund/testmat.coffee.git"
+  },
+  "dependencies": {
+    "karma-cli": "0.0.4"
   }
 }
