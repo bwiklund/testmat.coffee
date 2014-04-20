@@ -6,7 +6,7 @@ module.exports = (config) ->
     frameworks: ["jasmine"]
 
     preprocessors:
-      "src/**/*.coffee": ["coffee"]
+      "src/**/*.coffee": ["coverage"]
       "test/**/*.coffee": ["coffee"]
 
     files: [
