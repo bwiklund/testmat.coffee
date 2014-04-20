@@ -19,6 +19,7 @@
     "url": "http://github.com/bwiklund/testmat.coffee.git"
   },
   "dependencies": {
+    "coffee-script": "^1.7.1",
     "karma-cli": "0.0.4",
     "karma-coverage": "^0.2.1"
   }
